@@ -11,7 +11,7 @@
 	<IMG SRC=img/logo.gif>
 
 	<li><A HREF ="list">List of contents</A></li>
-	<li><A HREF ="create.jsp">Make new content!!</A></li>
+	<li><A HREF ="create.jsp">Make new content!!!</A></li>
 	<P>${message}</P>
 	<HR>
 </body>
