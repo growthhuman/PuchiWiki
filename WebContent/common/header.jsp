@@ -10,13 +10,8 @@
 <H1>Welcome to the PuchiWiki !!</H1>
 <IMG SRC=img/logo.gif>
 
-<<<<<<< HEAD
 <A HREF ="list">ˆê——</A>
 <A HREF ="create.jsp">V‹K</A>
-=======
-<A HREF ="list">ä¸€è¦§</A>
-<A HREF ="create.jsp">new</A>
->>>>>>> 0687cd5cc84ca8bae3ae0280f420794b0044b8ae
 <P>${message}
 <HR>
 </body>
