@@ -7,12 +7,12 @@
 <title>PuchiWiki</title>
 </head>
 <body>
-<H1>Welcome to the PuchiWiki !!</H1>
-<IMG SRC=img/logo.gif>
+	<H1>Welcome to the PuchiWiki !!</H1>
+	<IMG SRC=img/logo.gif>
 
-<A HREF ="list">ˆê——</A>
-<A HREF ="create.jsp">V‹K</A>
-<P>${message}
-<HR>
+	<li><A HREF ="list">List of contents</A></li>
+	<li><A HREF ="create.jsp">Make new content</A></li>
+	<P>${message}</P>
+	<HR>
 </body>
 </html>

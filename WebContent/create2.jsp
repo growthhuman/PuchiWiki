@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<H1>${param.name}make</H1>
+<H1>Making Page about [${param.name}] ...</H1>
 
 <FORM ACTION="create">
 	<INPUT TYPE="HIDDEN" NAME="cmd" VALUE="create">
@@ -16,8 +16,8 @@
 
 	<TEXTAREA ROWS="15" COLS="60" NAME="content"></TEXTAREA>
 	<BR>
-	<INPUT TYPE="SUBMIT" VALUE="make">
-	<INPUT TYPE="BUTTON" VALUE="cancel" ONCLICK="location.href='refer'">
+	<INPUT TYPE="SUBMIT" VALUE="Save">
+	<INPUT TYPE="BUTTON" VALUE="Cancel" ONCLICK="location.href='refer'">
 </FORM>
 
 </body>

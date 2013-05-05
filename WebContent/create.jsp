@@ -8,9 +8,10 @@
 </head>
 <body>
 
-<H1>new</H1>
+<H1>Main Page</H1>
+<P>Please Write What You Learned Today !!!<br>
+<P>«  Insert the title here
 
-<P>Insert Page Name
 
 <FORM ACTION="create2.jsp">
 	<INPUT TYPE="TEXT" NAME="name">

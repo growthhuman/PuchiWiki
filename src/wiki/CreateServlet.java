@@ -26,7 +26,7 @@ public class CreateServlet extends HttpServlet{
 			wikipage.setContent(content);
 
 			WikiPageDAO.getInstance().insert(wikipage);
-			RequestUtils.setMessage(request, name + "woMade");
+			RequestUtils.setMessage(request,"Made " + name  );
 
 			request.getRequestDispatcher("/refer").forward(request, response);
 		}catch(SQLException e){
