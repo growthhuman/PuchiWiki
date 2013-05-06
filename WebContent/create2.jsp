@@ -7,6 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
+<% if(request.getParameter("name")==""){%>
+	<jsp:forward page="create.jsp"></jsp:forward>
+<% }%>
 
 <H1>Making Page about [${param.name}] ...</H1>
 
@@ -18,6 +21,7 @@
 	<BR>
 	<INPUT TYPE="SUBMIT" VALUE="Save">
 	<INPUT TYPE="BUTTON" VALUE="Cancel" ONCLICK="location.href='refer'">
+	<INPUT TYPE="BUTTON" VALUE="Back" ONCLICK="location.href='create.jsp'">
 </FORM>
 
 </body>

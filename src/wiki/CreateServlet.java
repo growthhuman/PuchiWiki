@@ -13,14 +13,19 @@ public class CreateServlet extends HttpServlet{
 
 	public void doGet(HttpServletRequest request,HttpServletResponse response)
 	throws ServletException,IOException{
-
 		//######“ú–{Œêo—Í‘Î‰
 		response.setContentType("text/html; charset=Windows-31J");
 
 		String name = request.getParameter("name");
 		String content = request.getParameter("content");
 
+		System.out.println("---------------------------");
+		System.out.println(content);
+
 		try {
+			if(content==""){
+				request.getRequestDispatcher("create.jsp").forward(request, response);
+			}else{
 			WikiPage wikipage = new WikiPage();
 			wikipage.setName(name);
 			wikipage.setContent(content);
@@ -29,6 +34,7 @@ public class CreateServlet extends HttpServlet{
 			RequestUtils.setMessage(request,"Made " + name  );
 
 			request.getRequestDispatcher("/refer").forward(request, response);
+			}
 		}catch(SQLException e){
 			throw new ServletException(e);
 		}

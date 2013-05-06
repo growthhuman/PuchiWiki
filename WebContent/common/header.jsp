@@ -9,10 +9,12 @@
 <body>
 	<H1>Welcome to the PuchiWiki !!</H1>
 	<IMG SRC=img/logo.gif>
-
+<ul>
 	<li><A HREF ="list">List of contents</A></li>
 	<li><A HREF ="create.jsp">Make new content!!!</A></li>
+</ul>
 	<P>${message}</P>
 	<HR>
+
 </body>
 </html>
